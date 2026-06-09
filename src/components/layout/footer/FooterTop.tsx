@@ -28,13 +28,13 @@ const footerSections = [
 
 const FooterTop = () => {
   return (
-    <div className="border-t border-gray-200 bg-white">
+    <div className="border-gray-200 bg-white">
       <div className="mx-auto grid max-w-360 grid-cols-2 gap-10 px-4 py-10 md:grid-cols-3 lg:grid-cols-7">
         {/* Brand Section */}
         <div className="col-span-2 lg:col-span-2">
-          <img src={logo} alt="Brand Logo" className="h-10 w-auto" />
+          <img src={logo} alt="Brand Logo" className="h-11.5 w-[150]" />
 
-          <p className="mt-4 max-w-70 text-gray-500">
+          <p className="mt-4 text-[16px] max-w-70 text-gray-500">
             Best information about the companies goes here but now lorem ipsum
             is
           </p>
